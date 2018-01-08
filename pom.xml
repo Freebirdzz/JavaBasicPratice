@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>BasicLearning</groupId>
+    <artifactId>BasicLearning</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.version>4.3.4.RELEASE</spring.version>
+        <sitemesh.version>2.4.2</sitemesh.version>
+        <mybatis.version>3.4.5</mybatis.version>
+        <guava.version>19.0</guava.version>
+        <mt.http.version>1.1.4</mt.http.version>
+        <log4j2.version>2.5</log4j2.version>
+        <growth.service.version>1.0.7</growth.service.version>
+        <app.name>com.sankuai.qcs.service.growth</app.name>
+        <jetty.port>8416</jetty.port>
+        <sentry.dsn>
+            http://f3dac2bae80b4188882fe769f603c98b:58186437d4e946b98ee797dd76c7d3ec@sentry7.sankuai.com/963
+        </sentry.dsn>
+        <guava.version>19.0</guava.version>
+
+
+
+
+        <kafka.version>1.0.0</kafka.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.8</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
